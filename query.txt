@@ -1,0 +1,51 @@
+db.runCommand(
+	{
+		insert: "roles",
+		documents: [
+			{  "_id": {    "_id": "6334463962dde21a3cf74c73"  },  "label": "Admin"},
+			{  "_id": {    "_id": "6335a884127c848e28813c09"  },  "label": "Super Admin"}
+		]	
+	},
+	{
+		insert: "users",
+		documents: [
+				{  "_id": {    "$oid": "635f3dd1a84eac6beb63533f"  },  "nama": "Super Admin",  "username": "superadmin",  "password": "$2b$10$hRrS/wFfhfsCvA/PE5bhp.00twIfOVMWWHUN2VUvczRJ0B2fF5pyW",  "role": {    "label": "Super Admin",    "_id": {      "_idd": "6335a884127c848e28813c09"    }  },  "__v": 0},
+				{  "_id": {    "$oid": "635f4274a84eac6beb635365"  },  "nama": "Admin",  "username": "admin",  "password": "$2b$10$5cqw9SxA4kd/83d9.yG21eLPUmqCpXecwBecPW.ef5j/ca8Uywjbi",  "role": {    "label": "Admin",    "_id": {      "$_id": "6334463962dde21a3cf74c73"    },    "__v": 0  },  "__v": 0}
+				
+		]
+	},
+	{
+		insert: "pohon",
+		documents: [
+			{  "_id": {    "_id": "635157e83b8b7111c7cbe911"  },  "nama": "Bucehala clanguala",  "lat": 0.962323,  "lon": 109.057752,  "umur": 2,  "tinggi": 47,  "terakhirPerawatan": {    "$date": {      "$numberLong": "1666915200000"    }  },  "alamat": "91 Tennyson Road",  "kecamatan": {    "_id": "632bb22116b2a4334abcc15b"  }},
+			{  "_id": {    "_id": "635157e83b8b7111c7cbe912"  },  "nama": "Alligator mississippiens",  "lat": 0.86363,  "lon": 109.200153,  "umur": 11,  "tinggi": 29,  "terakhirPerawatan": {    "$date": {      "$numberLong": "1650672000000"    }  },  "alamat": "7287 Melody Place",  "kecamatan": {    "_id": "632bb23016b2a4334abcc163"  }},
+			{  "_id": {    "_id": "635157e83b8b7111c7cbe913"  },  "nama": "Diomedea irrorata",  "lat": 0.805958,  "lon": 109.068229,  "umur": 29,  "tinggi": 56,  "terakhirPerawatan": {    "$date": {      "$numberLong": "1644883200000"    }  },  "alamat": "3848 Granby Parkway",  "kecamatan": {    "_id": "632bb22716b2a4334abcc15f"  }},
+			{  "_id": {    "_id": "635157e83b8b7111c7cbe914"  },  "nama": "Cynomys ludovicianus",  "lat": 0.79662,  "lon": 108.902649,  "umur": 40,  "tinggi": 25,  "terakhirPerawatan": {    "$date": {      "$numberLong": "1635724800000"    }  },  "alamat": "8 Fordem Junction",  "kecamatan": {    "_id": "632bb22416b2a4334abcc15d"  }}
+		]
+	}
+)
+
+{
+	insert: "kecamatan",
+	documents: [
+		{  "_id": "632bb22116b2a4334abcc15b",  "nama": "Singkawang Barat"},
+		{  "_id": "632bb22416b2a4334abcc15d",  "nama": "Singkawang Selatan"},
+		{  "_id": "632bb22716b2a4334abcc15f",  "nama": "Singkawang Tengah"},
+		{  "_id": "632bb23016b2a4334abcc163",  "nama": "Singkawang Utara"},
+		{  "_id": "632bb22a16b2a4334abcc161",  "nama": "Singkawang Timur"}
+	]
+
+}
+
+db.runCommand(
+	{
+		insert: "kecamatan",
+		documents: [
+			{  "_id": "632bb22116b2a4334abcc15b",  "nama": "Singkawang Barat"},
+			{  "_id": "632bb22416b2a4334abcc15d",  "nama": "Singkawang Selatan"},
+			{  "_id": "632bb22716b2a4334abcc15f",  "nama": "Singkawang Tengah"},
+			{  "_id": "632bb23016b2a4334abcc163",  "nama": "Singkawang Utara"},
+			{  "_id": "632bb22a16b2a4334abcc161",  "nama": "Singkawang Timur"}
+		]
+	}
+)
