@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "635f3dd1a84eac6beb63533f"
+  },
+  "nama": "Super Admin",
+  "username": "superadmin",
+  "password": "$2b$10$hRrS/wFfhfsCvA/PE5bhp.00twIfOVMWWHUN2VUvczRJ0B2fF5pyW",
+  "role": {
+    "label": "Super Admin",
+    "_id": {
+      "$oid": "6335a884127c848e28813c09"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635f4274a84eac6beb635365"
+  },
+  "nama": "Admin",
+  "username": "admin",
+  "password": "$2b$10$5cqw9SxA4kd/83d9.yG21eLPUmqCpXecwBecPW.ef5j/ca8Uywjbi",
+  "role": {
+    "label": "Admin",
+    "_id": {
+      "$oid": "6334463962dde21a3cf74c73"
+    },
+    "__v": 0
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635fd61c68d61e88e059f381"
+  },
+  "nama": "Jane Doe",
+  "username": "janedoe",
+  "password": "$2b$10$2ARHN47UqOD3UkfdVgn8E.DEHBJH8UqVQR5IjJYeOQ6K7w0zQGyBu",
+  "role": {
+    "label": "Super Admin",
+    "_id": {
+      "$oid": "6335a884127c848e28813c09"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635fd7cc05d2740189eb50d7"
+  },
+  "nama": "John Doe",
+  "username": "johndoe",
+  "password": "$2b$10$BGwdfEeTt/b86rFnnqHwdewHoaSiLWYEqDObH/3hcOZwqivU5UbF.",
+  "role": {
+    "label": "Super Admin",
+    "_id": {
+      "$oid": "6335a884127c848e28813c09"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635fe0e305d2740189eb515f"
+  },
+  "nama": "John Smith",
+  "username": "johnsmith",
+  "password": "$2b$10$zjAnJIbMUTOocglYI7C9O.1drVNcVm5LyzDzoOxQzLH7JHXAER7iG",
+  "role": {
+    "label": "Super Admin",
+    "_id": {
+      "$oid": "6335a884127c848e28813c09"
+    }
+  },
+  "__v": 0
+}]

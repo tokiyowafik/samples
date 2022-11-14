@@ -37,15 +37,14 @@ db.runCommand(
 
 }
 
+
+
+
 db.runCommand(
 	{
-		insert: "kecamatan",
+		insert: roles",
 		documents: [
-			{  "_id": "632bb22116b2a4334abcc15b",  "nama": "Singkawang Barat"},
-			{  "_id": "632bb22416b2a4334abcc15d",  "nama": "Singkawang Selatan"},
-			{  "_id": "632bb22716b2a4334abcc15f",  "nama": "Singkawang Tengah"},
-			{  "_id": "632bb23016b2a4334abcc163",  "nama": "Singkawang Utara"},
-			{  "_id": "632bb22a16b2a4334abcc161",  "nama": "Singkawang Timur"}
+			{_id: ObjectId('6334463962dde21a3cf74c73'), label: "Admin"}
 		]
 	}
 )

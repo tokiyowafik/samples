@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "632bb22116b2a4334abcc15b"
+  },
+  "nama": "Singkawang Barat",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "632bb22416b2a4334abcc15d"
+  },
+  "nama": "Singkawang Selatan",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "632bb22716b2a4334abcc15f"
+  },
+  "nama": "Singkawang Tengah",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "632bb22a16b2a4334abcc161"
+  },
+  "nama": "Singkawang Timur",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "632bb23016b2a4334abcc163"
+  },
+  "nama": "Singkawang Utara",
+  "__v": 0
+}]
